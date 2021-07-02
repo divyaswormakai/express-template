@@ -1,0 +1,40 @@
+{
+  "name": "express-application-template",
+  "version": "1.0.0",
+  "description": "Express application template",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "server": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+     "node.js",
+    "express.js",
+    "REST API"
+  ],
+  "author": "Divyaswor Makai Shrestha",
+  "license": "ISC",
+  "homepage": "",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.3.2",
+		"mongoose-unique-validator": "^2.0.3",
+    "morgan": "^1.10.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  },
+  "engines": {
+    "node": "14.x"
+  }
+}
